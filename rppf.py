@@ -16,9 +16,6 @@ import seaborn as sns
 # parameters
 #############################
 
-# 0: weighted sum, 1: Tchebycheff
-model = 1
-
 # parameter in augmented weighted Tchebycheff
 rho = 0.1
 
