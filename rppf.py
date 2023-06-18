@@ -17,16 +17,16 @@ import seaborn as sns
 #############################
 
 # parameter in augmented weighted Tchebycheff
-rho = 0.1
+rho = 0.0
 
 # number of proposals
-num_top = 10
+num_top = 20
 
 # window of weights
 wind = 0.01
 
-# value of Hstar
-Hstar = 0.05
+# value of Tstar
+Tstar = 0.01
 
 #############################
 
@@ -149,7 +149,7 @@ if len(y[0]) == 2:
 
         #calculation of MIPS score
 
-        T = - Hstar / np.log(0.5)
+        T = Tstar
         
         Z = 0.0
         for i in range(datanum):
@@ -261,7 +261,7 @@ if len(y[0]) == 3:
         H_all.append((H-Emin)/(Emax-Emin))
 
         #calculation of MIPS score
-        T = - Hstar / np.log(0.5)
+        T = Tstar
         
         Z = 0.0
         for i in range(datanum):
