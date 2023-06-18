@@ -16,7 +16,7 @@ Python >= 3.7
 
 **wind: float** (window of weights)
 
-**Hstar: float** (value of Hstar)
+**Tstar: float** (value of Tstar)
 
 
 ## Target dataset
