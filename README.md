@@ -21,9 +21,9 @@ Python >= 3.7
 
 ## Target dataset
 
-Target dataset is prepared as data.csv.
+The target dataset is prepared as data.csv.
 
-The example (two dimensional property space) as follows.
+The example is (two-dimensional property space) as follows.
 
 |  name  |  objective1  |  objective 2 |
 | ------ | ------------ | ------------ |
